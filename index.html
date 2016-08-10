@@ -1,13 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="webApp">
 <head>
 	<title>Rafal Polak - Portfolio</title>
 		<!-- css -->
-		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
 		<link rel="stylesheet" href="lib/css/util.css">
+		<!-- css end -->
 </head>
-<body class="color-test2">
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<body ng-controller="mainCtrl">
+	<nav id="mainNav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Rafa&#322; Polak - Portfolio</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden active">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#aboutMe" ng-click="scrollTo(aboutMe)">O mnie</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#skills" ng-click="scrollTo(skills)">Umiej&#281;tno&#347;ci</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#blog" ng-click="scrollTo(blog)">Blog</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#repo" ng-click="scrollTo(repo)">Repozytorium</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#projects" ng-click="scrollTo(projects)">Projekty</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact" ng-click="scrollTo(contact)">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+<header>
+<div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Hello World</h1>
+					<p>I'm hosted with GitHub Pages.</p>
+                </div>
+            </div>
+        </div>
+</header>
+
+
+
+
+<section id="aboutMe" class="color-test">
+
+</section>
+<section id="skills" class="color-test2">
+
+</section>
+<section id="blog" class="color-test3">
+
+</section>
+<section id="repo" class="color-test4">
+
+</section>
+<section id="projects" class="color-test5">
+
+</section>
+<section id="contact" class="color-test6">
+
+</section>
+
+<!-- scripts -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+<scritp src="bower_components/angular-resource/angular-resource.min.js"></script>
+<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/bootstrap.min.js"></script>
+<!-- scripts end -->
+<!-- my js -->
+<script src="js/controllers/mainMenuCtrl.js"></script>
+<script src="js/app/app.js"></script>
+<!-- my js end -->
 </body>
 </html>
