@@ -34,37 +34,88 @@ section{
     border: 1px solid;
 }
 
-.color-test{
+h1{
+    color:#FFFFFF;
+}
+
+p{
+    color:#FFFFFF;
+}
+.board {
+    -webkit-transform: perspective(600px) rotateX(60deg);
+    -moz-transform: perspective(600px) rotateX(60deg);
+    -ms-transform: perspective(600px) rotateX(60deg);
+    -o-transform: perspective(600px) rotateX(60deg);
+    transform: perspective(600px) rotateX(60deg);
+    animation: bounceInDown 500ms ease-in-out 800ms both;
+}
+
+.hex {
+    float: left;
+    margin-right: -26px;
+    margin-bottom: -50px;
+}
+
+.hex .left {
+    float: left;
+    width: 0;
+    border-right: 30px solid #FAF0E6;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+
+.hex .middle {
+    float: left;
+    width: 60px;
+    height: 104px;
+    background: #FAF0E6;
+        
+}
+.hex .right {
+    float: left;
+    width: 0;
+    border-left: 30px solid #FAF0E6;
+    border-top: 52px solid transparent;
+    border-bottom: 52px solid transparent;
+}
+.hex-row {
+    clear: left;
+}
+.hex.even {
+    margin-top: 53px;
+}
+
+.color-aboutMe{
 	background: #4b6cb7; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.color-test2{
+.color-skills{
 	background: #614385; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.color-test3{
+.color-blog{
 	background: #16222A; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #16222A , #3A6073); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #16222A , #3A6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.color-test4{
+.color-repo{
 	background: #4B79A1; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #4B79A1 , #283E51); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.color-test5{
+.color-projects{
     background: #085078; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
-.color-test6{
+.color-contact{
     background: #000428; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #000428 , #004e92); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #000428 , #004e92); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
