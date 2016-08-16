@@ -24,7 +24,7 @@ header .container {
     padding-bottom:50px
 }
 
-a,a.active,a:active,a:focus{
+a{
     color:#FFFFFF;
     outline:0
 }
