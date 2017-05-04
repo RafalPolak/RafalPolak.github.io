@@ -1,5 +1,5 @@
 {
-  "name": "myPortfolio",
+  "name": "my-portfolio",
   "description": "Website which present my development achievment and projects with blog and examples",
   "authors": [
     "Rafal Polak"
@@ -39,6 +39,8 @@
     "angular-sanitize": "^1.5.7",
     "lodash": "^4.13.1",
     "font-awesome": "^4.6.3",
-    "jquery": "^3.1.0"
+    "jquery": "^3.1.0",
+    "angular-translate": "^2.15.1",
+    "angular-translate-loader-static-files": "^2.15.1"
   }
 }

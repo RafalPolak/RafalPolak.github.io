@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="lib/vendors/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="lib/vendors/css/font-awesome.css">
         <link rel="stylesheet" href="lib/css/util.css">
+        <!-- flags -->
+        <link rel="stylesheet" href="lib/flags/flags.css">
         <!-- css end -->
     </head>
     <body ng-controller="mainCtrl">
@@ -38,13 +40,26 @@
                         <li>
                             <a ui-sref="contact">Kontakt</a>
                         </li>
+                        <li class="navbar-separator">
+                            <span>DIVIDER</span>
+                        </li>
+                        <li>
+                            <a href="" ng-click="switchLanguage('en_US')">
+                                <img src="lib/flags/blank.gif" class="flag lang-en" alt="Great Britain" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" ng-click="switchLanguage('pl_PL')">
+                                <img src="lib/flags/blank.gif" class="flag lang-pl" alt="Polska" />
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
             </div>
             <!-- /.container-fluid -->
         </nav>
-        
+
         <div ui-view></div>
 
         <footer class="footer">
@@ -55,12 +70,14 @@
             </div>
         </footer>
         <!-- scripts -->
-        <script src="lib/vendors/js/angular.min.js"></script>
+        <script src="lib/vendors/js/angular.js"></script>
         <script src="lib/vendors/js/angular-animate.min.js"></script>
         <script src="lib/vendors/js/ui-bootstrap.min.js"></script>
-        <scritp src="lib/vendors/js/angular-resource.min.js"></script>
+        <script src="lib/vendors/js/angular-resource.min.js"></script>
         <script src="lib/vendors/js/angular-sanitize.min.js"></script>
         <script src="lib/vendors/js/angular-ui-router.min.js"></script>
+        <script src="lib/vendors/js/angular-translate.min.js"></script>
+        <script src="lib/vendors/js/angular-translate-loader-static-files.js"></script>
         <script src="lib/vendors/js/jquery.min.js"></script>
         <script src="lib/vendors/js/bootstrap.min.js"></script>
         <!-- scripts end -->
