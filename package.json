@@ -1,7 +1,7 @@
 {
   "name": "MojePortfolioStronaGit",
   "version": "0.0.1",
-  "description": "Website which present my development achievment and projects with blog and examples.",
+  "description": "Website which present my development achievement/projects/blog/examples.",
   "author": "Rafał Polak",
   "dependencies": {
     "grunt": "^0.4.5",
