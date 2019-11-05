@@ -1,0 +1,15 @@
+{
+  "MENU":{
+    "ABOUT_ME": "O mnie",
+    "SKILLS": "Umiejętności",
+    "BLOG": "Blog",
+    "REPOSITORY": "Repozytorium",
+    "PROJECTS": "Projekty",
+    "CONTACT": "Kontakt"
+  },
+  "ABOUT_ME":{
+    "HELLO_WORLD": "Hello World",
+    "HOSTED_GITHUB": "Strona stworzona jako strona GitHub'a",
+    "PROGRESS": "Strona w budowie"
+  }
+}

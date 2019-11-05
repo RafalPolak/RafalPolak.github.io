@@ -5,22 +5,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f5e0a04-b973-4349-b5b9-843760397475" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/util.css" afterPath="$PROJECT_DIR$/lib/css/util.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/aboutMe.html" afterPath="$PROJECT_DIR$/partials/aboutMe.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/blog.html" afterPath="$PROJECT_DIR$/partials/blog.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/contact.html" afterPath="$PROJECT_DIR$/partials/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/projects.html" afterPath="$PROJECT_DIR$/partials/projects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/repo.html" afterPath="$PROJECT_DIR$/partials/repo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/skills.html" afterPath="$PROJECT_DIR$/partials/skills.html" />
+      <change afterPath="$PROJECT_DIR$/rp-portfolio-app/src/assets/pic/blocks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/pic/blocks.png" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/assets/pic/blocks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/cv.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/css/cv.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/css/util.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/css/util.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flags/blank.gif" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/flags/blank.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flags/flags.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/flags/flags.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flags/flags.png" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/flags/flags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/i18n/locale-en_US.json" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/i18n/locale-en_US.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/i18n/locale-pl_PL.json" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/i18n/locale-pl_PL.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/js/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/js/controllers/mainMenuCtrl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/css/font-awesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/css/font-awesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-animate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-animate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-resource.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-resource.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-sanitize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-sanitize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-translate-loader-static-files.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-translate-loader-static-files.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-translate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-translate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular-ui-router.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular-ui-router.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/angular.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/angular.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vendors/js/ui-bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/lib/vendors/js/ui-bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/aboutMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/aboutMe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/repo.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/repo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/partials/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/oldPortfolio/partials/skills.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/index.html" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,121 +53,11 @@
   <component name="FavoritesManager">
     <favorites_list name="MojePortfolioStronaGit" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="79" column="61" lean-forward="false" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
-              <folding>
-                <element signature="e#2269#2275#0" expanded="true" />
-                <element signature="e#2275#2281#0" expanded="true" />
-                <element signature="e#2281#2287#0" expanded="true" />
-                <element signature="e#2287#2293#0" expanded="true" />
-                <element signature="e#2293#2299#0" expanded="true" />
-                <element signature="e#2299#2305#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aboutMe.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/aboutMe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blog.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/blog.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/contact.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/projects.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mainMenuCtrl.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="repo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/repo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="util.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/css/util.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="skills.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/skills.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -158,159 +72,29 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lib/lang/locale-pl_PL" />
-        <option value="$PROJECT_DIR$/lib/lang/locale-en_US" />
-        <option value="$PROJECT_DIR$/bower.json" />
-        <option value="$PROJECT_DIR$/lib/lang/locale-de_DE.json" />
-        <option value="$PROJECT_DIR$/lib/lang/locale-pl_PL.json" />
-        <option value="$PROJECT_DIR$/lib/lang/locale-en_US.json" />
-        <option value="$PROJECT_DIR$/lib/vendors/js/angular-sanitize.min.js" />
-        <option value="$PROJECT_DIR$/lib/js/app/app.js" />
-        <option value="$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js" />
-        <option value="$PROJECT_DIR$/lib/i18n/locale-pl_PL.json" />
-        <option value="$PROJECT_DIR$/lib/i18n/locale-en_US.json" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/css/util.css" />
-        <option value="$PROJECT_DIR$/partials/aboutMe.html" />
-        <option value="$PROJECT_DIR$/partials/blog.html" />
-        <option value="$PROJECT_DIR$/partials/contact.html" />
-        <option value="$PROJECT_DIR$/partials/projects.html" />
-        <option value="$PROJECT_DIR$/partials/repo.html" />
-        <option value="$PROJECT_DIR$/partials/skills.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
   <component name="JsBowerSettings">
     <node-interpreter value="project" />
     <exe-path>$USER_HOME$/AppData/Roaming/npm/bower.cmd</exe-path>
     <config-path>$PROJECT_DIR$/bower.json</config-path>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1932" />
-    <option name="height" value="1048" />
-  </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-ui-router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-ui-router" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-ui-router" type="462c0819:PsiDirectoryNode" />
-              <item name="release" type="462c0819:PsiDirectoryNode" />
-              <item name="angular-ui-router.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="vendors" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MojePortfolioStronaGit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MojePortfolioStronaGit" type="462c0819:PsiDirectoryNode" />
-              <item name="partials" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1RhxvalnAKtThwVJuyExVTQqVjh" />
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rp-portfolio-app/src/assets/pic" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LingwistykaMatematycznaGIT" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="ts.external.directory.path" value="D:\Kompilator\Projekty\MojePortfolioStronaGit\rp-portfolio-app\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Kompilator\Projekty\MojePortfolioStronaGit\oldPortfolio" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kompilator\Projekty\MojePortfolioStronaGit\rp-portfolio-app\src\assets\pic" />
       <recent name="D:\Kompilator\Projekty\MojePortfolioStronaGit\lib\vendors\js" />
       <recent name="D:\Kompilator\Projekty\MojePortfolioStronaGit\lib\flags" />
     </key>
@@ -327,79 +111,56 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Firefox Remote.Firefox">
-    <configuration name="Firefox" type="FirefoxRemoteDebugType" factoryName="Firefox Remote" />
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="Firefox" type="FirefoxRemoteDebugType">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/MojePortfolioStronaGit/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
       <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <envs />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <method />
-    </configuration>
-    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
-      <method />
-    </configuration>
-    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" value="" />
-      <option name="executablePath" />
-      <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/rp-portfolio-app/package.json" />
       <command value="run" />
-      <scripts />
+      <scripts>
+        <script value="ng" />
+        <script value="serve" />
+      </scripts>
       <node-interpreter value="project" />
       <envs />
-      <method />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
+    <configuration name="ng serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/rp-portfolio-app/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
       <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
+      <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Firefox Remote.Firefox" />
+      <item itemvalue="npm.ng serve" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -415,12 +176,28 @@
       <workItem from="1494446197613" duration="2398000" />
       <workItem from="1494525424814" duration="2154000" />
       <workItem from="1496698276034" duration="65000" />
-      <workItem from="1508348488613" duration="3332000" />
+      <workItem from="1508348488613" duration="3635000" />
+      <workItem from="1508774653942" duration="86000" />
+      <workItem from="1508775473118" duration="52000" />
+      <workItem from="1509129157160" duration="3060000" />
+      <workItem from="1509264900167" duration="266000" />
+      <workItem from="1509301627197" duration="598000" />
+      <workItem from="1517344927606" duration="819000" />
+      <workItem from="1517509632285" duration="716000" />
+      <workItem from="1517772284773" duration="392000" />
+      <workItem from="1556832051587" duration="2895000" />
+      <workItem from="1557260796374" duration="85000" />
+      <workItem from="1557260899847" duration="1491000" />
+      <workItem from="1557264404744" duration="2120000" />
+      <workItem from="1557349763935" duration="492000" />
+      <workItem from="1558552030767" duration="2491000" />
+      <workItem from="1559245957143" duration="44000" />
+      <workItem from="1559246017561" duration="13000" />
+      <workItem from="1570133377496" duration="1391000" />
+      <workItem from="1570463704668" duration="1064000" />
+      <workItem from="1572982258069" duration="2803000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20820000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,430 +208,26 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="1" />
-    <editor active="true" />
-    <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="FAQ Robot" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="MaxCompute Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39956093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/rp-portfolio-app/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-en_US.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-pl_PL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/repo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1323">
-          <caret line="63" column="62" lean-forward="false" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
-          <folding>
-            <element signature="e#2269#2275#0" expanded="true" />
-            <element signature="e#2275#2281#0" expanded="true" />
-            <element signature="e#2281#2287#0" expanded="true" />
-            <element signature="e#2287#2293#0" expanded="true" />
-            <element signature="e#2293#2299#0" expanded="true" />
-            <element signature="e#2299#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/aboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-en_US.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-pl_PL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/repo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="56" column="6" lean-forward="false" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="36" lean-forward="false" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2269#2275#0" expanded="true" />
-            <element signature="e#2275#2281#0" expanded="true" />
-            <element signature="e#2281#2287#0" expanded="true" />
-            <element signature="e#2287#2293#0" expanded="true" />
-            <element signature="e#2293#2299#0" expanded="true" />
-            <element signature="e#2299#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/aboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" column="6" lean-forward="true" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/repo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="39" column="12" lean-forward="false" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/test.html" />
-    <entry file="file://$PROJECT_DIR$/lib/vendors/js/angular-animate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendors/js/angular-translate.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="5" column="23860" lean-forward="false" selection-start-line="5" selection-start-column="23860" selection-end-line="5" selection-end-column="23860" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flags/flags.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flags/flags.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/flags/blank.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendors/js/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-translate/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular-translate/.bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendors/js/angular-translate-loader-static-files.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/vendors/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/lang/locale-de_DE.json" />
-    <entry file="file://$PROJECT_DIR$/lib/vendors/js/angular-sanitize.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-pl_PL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/i18n/locale-en_US.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="81" lean-forward="false" selection-start-line="3" selection-start-column="81" selection-end-line="3" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/js/controllers/mainMenuCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/css/util.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/aboutMe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/repo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/skills.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="79" column="61" lean-forward="false" selection-start-line="79" selection-start-column="61" selection-end-line="79" selection-end-column="61" />
-          <folding>
-            <element signature="e#2269#2275#0" expanded="true" />
-            <element signature="e#2275#2281#0" expanded="true" />
-            <element signature="e#2281#2287#0" expanded="true" />
-            <element signature="e#2287#2293#0" expanded="true" />
-            <element signature="e#2293#2299#0" expanded="true" />
-            <element signature="e#2299#2305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
