@@ -9,6 +9,19 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<canvas>\r\n\r\n</canvas>\r\n<router-outlet></router-outlet>\r\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/dashboard/dashboard.component.html":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/dashboard/dashboard.component.html ***!
+  \******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\n  <h5 class=\"my-0 mr-md-auto font-weight-normal\">Rafa&#322; Polak - Portfolio</h5>\n  <nav class=\"my-2 my-md-0 mr-md-3\">\n    <a class=\"p-2 text-dark\" href=\"#\">Features</a>\n    <a class=\"p-2 text-dark\" href=\"#\">Enterprise</a>\n  </nav>\n  <a class=\"btn btn-outline-primary\" href=\"#\">Sign up</a>\n</div>\n\n<div class=\"container\">\n  <div class=\"d-flex flex-row\">\n    <div class=\"col d-flex align-items-center justify-content-center\">\n      <h4>Hello World<br/>I'm hosted with Github Pages.<br/>Work in progress</h4>\n    </div>\n    <div class=\"col\">\n      <img class=\"img-responsive\" src=\"../assets/pic/blocks.png\">\n    </div>\n  </div>\n\n  <footer class=\"pt-4 my-md-5 border-top\">\n    <div class=\"row\">\n      <div class=\"col-12 col-md\">\n        <small class=\"d-block mb-3 text-muted d-flex justify-content-center\">&copy; Rafał Polak 2014-2019</small>\n      </div>\n    </div>\n  </footer>\n</div>\n\n<router-outlet></router-outlet>\n");
 
 /***/ }),
@@ -293,7 +306,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
+/* harmony default export */ __webpack_exports__["default"] = ("* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  background: #000;\n}\n\ncanvas {\n  display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvRDpcXEtvbXBpbGF0b3JcXFByb2pla3R5XFxNb2plUG9ydGZvbGlvU3Ryb25hR2l0XFxycC1wb3J0Zm9saW8tYXBwL3NyY1xcYXBwXFxhcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUFHLFNBQUE7RUFBVyxVQUFBO0FDR2Q7O0FERkE7RUFBTSxnQkFBQTtBQ01OOztBRExBO0VBQVEsY0FBQTtBQ1NSIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7bWFyZ2luOiAwOyBwYWRkaW5nOiAwfVxyXG5ib2R5IHtiYWNrZ3JvdW5kOiAjMDAwO31cclxuY2FudmFzIHtkaXNwbGF5OiBibG9jazt9XHJcbiIsIioge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG59XG5cbmJvZHkge1xuICBiYWNrZ3JvdW5kOiAjMDAwO1xufVxuXG5jYW52YXMge1xuICBkaXNwbGF5OiBibG9jaztcbn0iXX0= */");
 
 /***/ }),
 
@@ -312,8 +325,40 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AppComponent = class AppComponent {
-    constructor() {
-        this.title = 'rp-portfolio-app';
+    ngOnInit() {
+        // Initialising the canvas
+        let canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
+        // Setting the width and height of the canvas
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        // Setting up the letters
+        let letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+        // @ts-ignore
+        letters = letters.split('');
+        // Setting up the columns
+        let fontSize = 10, columns = canvas.width / fontSize;
+        // Setting up the drops
+        let drops = [];
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+        // Setting up the draw function
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < drops.length; i++) {
+                let text = letters[Math.floor(Math.random() * letters.length)];
+                ctx.fillStyle = '#0f0';
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                drops[i]++;
+                //function to loop letters
+                if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
+                    drops[i] = 0;
+                }
+            }
+        }
+        // Loop the animation
+        setInterval(draw, 40);
     }
 };
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -344,6 +389,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+
 
 
 
@@ -355,7 +402,8 @@ let AppModule = class AppModule {
 AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
-            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]
+            _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+            _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -366,6 +414,51 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })
 ], AppModule);
+
+
+
+/***/ }),
+
+/***/ "./src/app/dashboard/dashboard.component.scss":
+/*!****************************************************!*\
+  !*** ./src/app/dashboard/dashboard.component.scss ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2Rhc2hib2FyZC9kYXNoYm9hcmQuY29tcG9uZW50LnNjc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/dashboard/dashboard.component.ts":
+/*!**************************************************!*\
+  !*** ./src/app/dashboard/dashboard.component.ts ***!
+  \**************************************************/
+/*! exports provided: DashboardComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DashboardComponent", function() { return DashboardComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let DashboardComponent = class DashboardComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-dashboard',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./dashboard.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/dashboard/dashboard.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./dashboard.component.scss */ "./src/app/dashboard/dashboard.component.scss")).default]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], DashboardComponent);
 
 
 
