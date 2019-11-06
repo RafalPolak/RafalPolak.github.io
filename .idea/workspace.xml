@@ -6,10 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7f5e0a04-b973-4349-b5b9-843760397475" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app-routing.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="npm.ng serve">
     <configuration name="Firefox" type="FirefoxRemoteDebugType">
       <method v="2" />
     </configuration>
@@ -109,8 +111,8 @@
     </configuration>
     <list>
       <item itemvalue="Firefox Remote.Firefox" />
-      <item itemvalue="npm.ng serve" />
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="npm.ng serve" />
     </list>
     <recent_temporary>
       <list>
@@ -154,7 +156,8 @@
       <workItem from="1559246017561" duration="13000" />
       <workItem from="1570133377496" duration="1391000" />
       <workItem from="1570463704668" duration="1064000" />
-      <workItem from="1572982258069" duration="4244000" />
+      <workItem from="1572982258069" duration="4768000" />
+      <workItem from="1573067365760" duration="3129000" />
     </task>
     <servers />
   </component>

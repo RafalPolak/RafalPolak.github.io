@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 
 import { NgbModule } from "@ng-bootstrap/ng-bootstrap";
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { SplashComponent } from './splash/splash.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    SplashComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
