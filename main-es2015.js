@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<canvas>\r\n\r\n</canvas>\r\n<router-outlet></router-outlet>\r\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet>\r\n</router-outlet>\r\n");
 
 /***/ }),
 
@@ -22,7 +22,33 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\n  <h5 class=\"my-0 mr-md-auto font-weight-normal\">Rafa&#322; Polak - Portfolio</h5>\n  <nav class=\"my-2 my-md-0 mr-md-3\">\n    <a class=\"p-2 text-dark\" href=\"#\">Features</a>\n    <a class=\"p-2 text-dark\" href=\"#\">Enterprise</a>\n  </nav>\n  <a class=\"btn btn-outline-primary\" href=\"#\">Sign up</a>\n</div>\n\n<div class=\"container\">\n  <div class=\"d-flex flex-row\">\n    <div class=\"col d-flex align-items-center justify-content-center\">\n      <h4>Hello World<br/>I'm hosted with Github Pages.<br/>Work in progress</h4>\n    </div>\n    <div class=\"col\">\n      <img class=\"img-responsive\" src=\"../assets/pic/blocks.png\">\n    </div>\n  </div>\n\n  <footer class=\"pt-4 my-md-5 border-top\">\n    <div class=\"row\">\n      <div class=\"col-12 col-md\">\n        <small class=\"d-block mb-3 text-muted d-flex justify-content-center\">&copy; Rafał Polak 2014-2019</small>\n      </div>\n    </div>\n  </footer>\n</div>\n\n<router-outlet></router-outlet>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow\">\n  <h5 class=\"my-0 mr-md-auto font-weight-normal\">Rafa&#322; Polak - Portfolio</h5>\n  <nav class=\"my-2 my-md-0 mr-md-3\">\n    <a class=\"p-2 text-dark\" href=\"#\">Features</a>\n    <a class=\"p-2 text-dark\" href=\"#\">Enterprise</a>\n  </nav>\n  <a class=\"btn btn-outline-primary\" href=\"#\">Sign up</a>\n</div>\n\n<div class=\"container\">\n  <div class=\"d-flex flex-row\">\n    <div class=\"col d-flex align-items-center justify-content-center\">\n      <h4>Hello World<br/>I'm hosted with Github Pages.<br/>Work in progress</h4>\n    </div>\n    <div class=\"col\">\n      <img class=\"img-responsive\" src=\"../assets/pic/blocks.png\">\n    </div>\n  </div>\n\n  <footer class=\"pt-4 my-md-5 border-top\">\n    <div class=\"row\">\n      <div class=\"col-12 col-md\">\n        <small class=\"d-block mb-3 text-muted d-flex justify-content-center\">&copy; Rafał Polak 2014-2019</small>\n      </div>\n    </div>\n  </footer>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/page-not-found/page-not-found.component.html":
+/*!****************************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/page-not-found/page-not-found.component.html ***!
+  \****************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <div class=\"row\">\n    <div class=\"col-md-12\">\n      <div>\n        <h1>\n          Oops!</h1>\n        <h2>\n          404 Not Found</h2>\n        <div>\n          <a routerLink=\"\" class=\"btn btn-primary btn-lg\"><span class=\"glyphicon glyphicon-home\"></span>\n            Return to homepage </a>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/splash/splash.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/splash/splash.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<canvas></canvas>\n");
 
 /***/ }),
 
@@ -280,10 +306,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+/* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _splash_splash_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./splash/splash.component */ "./src/app/splash/splash.component.ts");
+/* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
 
 
 
-const routes = [];
+
+
+
+const routes = [
+    { path: 'splash', component: _splash_splash_component__WEBPACK_IMPORTED_MODULE_4__["SplashComponent"] },
+    { path: 'dashboard', component: _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_3__["DashboardComponent"] },
+    { path: '', redirectTo: '/splash', pathMatch: 'full' },
+    { path: '**', component: _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_5__["PageNotFoundComponent"] }
+];
 let AppRoutingModule = class AppRoutingModule {
 };
 AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -306,7 +343,7 @@ AppRoutingModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  background: #000;\n}\n\ncanvas {\n  display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvRDpcXEtvbXBpbGF0b3JcXFByb2pla3R5XFxNb2plUG9ydGZvbGlvU3Ryb25hR2l0XFxycC1wb3J0Zm9saW8tYXBwL3NyY1xcYXBwXFxhcHAuY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUFHLFNBQUE7RUFBVyxVQUFBO0FDR2Q7O0FERkE7RUFBTSxnQkFBQTtBQ01OOztBRExBO0VBQVEsY0FBQTtBQ1NSIiwiZmlsZSI6InNyYy9hcHAvYXBwLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7bWFyZ2luOiAwOyBwYWRkaW5nOiAwfVxyXG5ib2R5IHtiYWNrZ3JvdW5kOiAjMDAwO31cclxuY2FudmFzIHtkaXNwbGF5OiBibG9jazt9XHJcbiIsIioge1xuICBtYXJnaW46IDA7XG4gIHBhZGRpbmc6IDA7XG59XG5cbmJvZHkge1xuICBiYWNrZ3JvdW5kOiAjMDAwO1xufVxuXG5jYW52YXMge1xuICBkaXNwbGF5OiBibG9jaztcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuc2NzcyJ9 */");
 
 /***/ }),
 
@@ -325,41 +362,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 let AppComponent = class AppComponent {
-    ngOnInit() {
-        // Initialising the canvas
-        let canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
-        // Setting the width and height of the canvas
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-        // Setting up the letters
-        let letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
-        // @ts-ignore
-        letters = letters.split('');
-        // Setting up the columns
-        let fontSize = 10, columns = canvas.width / fontSize;
-        // Setting up the drops
-        let drops = [];
-        for (let i = 0; i < columns; i++) {
-            drops[i] = 1;
-        }
-        // Setting up the draw function
-        function draw() {
-            ctx.fillStyle = 'rgba(0, 0, 0, .1)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            for (let i = 0; i < drops.length; i++) {
-                let text = letters[Math.floor(Math.random() * letters.length)];
-                ctx.fillStyle = '#0f0';
-                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
-                drops[i]++;
-                //function to loop letters
-                if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
-                    drops[i] = 0;
-                }
-            }
-        }
-        // Loop the animation
-        setInterval(draw, 40);
-    }
 };
 AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -390,6 +392,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm2015/ng-bootstrap.js");
 /* harmony import */ var _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dashboard/dashboard.component */ "./src/app/dashboard/dashboard.component.ts");
+/* harmony import */ var _splash_splash_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./splash/splash.component */ "./src/app/splash/splash.component.ts");
+/* harmony import */ var _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./page-not-found/page-not-found.component */ "./src/app/page-not-found/page-not-found.component.ts");
+
+
 
 
 
@@ -403,7 +409,9 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
         declarations: [
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-            _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"]
+            _dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_6__["DashboardComponent"],
+            _splash_splash_component__WEBPACK_IMPORTED_MODULE_7__["SplashComponent"],
+            _page_not_found_page_not_found_component__WEBPACK_IMPORTED_MODULE_8__["PageNotFoundComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -459,6 +467,139 @@ DashboardComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     }),
     tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
 ], DashboardComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/page-not-found/page-not-found.component.scss":
+/*!**************************************************************!*\
+  !*** ./src/app/page-not-found/page-not-found.component.scss ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3BhZ2Utbm90LWZvdW5kL3BhZ2Utbm90LWZvdW5kLmNvbXBvbmVudC5zY3NzIn0= */");
+
+/***/ }),
+
+/***/ "./src/app/page-not-found/page-not-found.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/page-not-found/page-not-found.component.ts ***!
+  \************************************************************/
+/*! exports provided: PageNotFoundComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PageNotFoundComponent", function() { return PageNotFoundComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let PageNotFoundComponent = class PageNotFoundComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+PageNotFoundComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-page-not-found',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./page-not-found.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/page-not-found/page-not-found.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./page-not-found.component.scss */ "./src/app/page-not-found/page-not-found.component.scss")).default]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], PageNotFoundComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/splash/splash.component.scss":
+/*!**********************************************!*\
+  !*** ./src/app/splash/splash.component.scss ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("* {\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  background: #000;\n}\n\ncanvas {\n  display: block;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3BsYXNoL0Q6XFxLb21waWxhdG9yXFxQcm9qZWt0eVxcTW9qZVBvcnRmb2xpb1N0cm9uYUdpdFxccnAtcG9ydGZvbGlvLWFwcC9zcmNcXGFwcFxcc3BsYXNoXFxzcGxhc2guY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL3NwbGFzaC9zcGxhc2guY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFBRyxTQUFBO0VBQVcsVUFBQTtBQ0dkOztBREZBO0VBQU0sZ0JBQUE7QUNNTjs7QURMQTtFQUFRLGNBQUE7QUNTUiIsImZpbGUiOiJzcmMvYXBwL3NwbGFzaC9zcGxhc2guY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqIHttYXJnaW46IDA7IHBhZGRpbmc6IDB9XHJcbmJvZHkge2JhY2tncm91bmQ6ICMwMDA7fVxyXG5jYW52YXMge2Rpc3BsYXk6IGJsb2NrO31cclxuIiwiKiB7XG4gIG1hcmdpbjogMDtcbiAgcGFkZGluZzogMDtcbn1cblxuYm9keSB7XG4gIGJhY2tncm91bmQ6ICMwMDA7XG59XG5cbmNhbnZhcyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xufSJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/splash/splash.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/splash/splash.component.ts ***!
+  \********************************************/
+/*! exports provided: SplashComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SplashComponent", function() { return SplashComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
+
+
+
+let SplashComponent = class SplashComponent {
+    constructor(router) {
+        this.router = router;
+    }
+    ngOnInit() {
+        // Initialising the canvas
+        let canvas = document.querySelector('canvas'), ctx = canvas.getContext('2d');
+        // Setting the width and height of the canvas
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        // Setting up the letters
+        let letters = 'ABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZABCDEFGHIJKLMNOPQRSTUVXYZ';
+        // @ts-ignore
+        letters = letters.split('');
+        // Setting up the columns
+        let fontSize = 10, columns = canvas.width / fontSize;
+        // Setting up the drops
+        let drops = [];
+        for (let i = 0; i < columns; i++) {
+            drops[i] = 1;
+        }
+        // Setting up the draw function
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, .1)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+            for (let i = 0; i < drops.length; i++) {
+                let text = letters[Math.floor(Math.random() * letters.length)];
+                ctx.fillStyle = '#0f0';
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+                drops[i]++;
+                //function to loop letters
+                // if (drops[i] * fontSize > canvas.height && Math.random() > .95) {
+                //   drops[i] = 0;
+                // }
+            }
+        }
+        // Loop the animation
+        setInterval(draw, 40);
+        setTimeout(() => {
+            this.router.navigate(['/dashboard']);
+        }, 4000); //4s
+    }
+};
+SplashComponent.ctorParameters = () => [
+    { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }
+];
+SplashComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-splash',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./splash.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/splash/splash.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./splash.component.scss */ "./src/app/splash/splash.component.scss")).default]
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+], SplashComponent);
 
 
 
