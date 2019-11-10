@@ -4,7 +4,13 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f5e0a04-b973-4349-b5b9-843760397475" name="Default" comment="" />
+    <list default="true" id="7f5e0a04-b973-4349-b5b9-843760397475" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/app/dashboard/dashboard.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-portfolio-app/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/rp-portfolio-app/src/styles.scss" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +25,7 @@
       <list>
         <option value="package_json" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -149,7 +156,8 @@
       <workItem from="1570133377496" duration="1391000" />
       <workItem from="1570463704668" duration="1064000" />
       <workItem from="1572982258069" duration="4768000" />
-      <workItem from="1573067365760" duration="3423000" />
+      <workItem from="1573067365760" duration="3500000" />
+      <workItem from="1573412694845" duration="2716000" />
     </task>
     <servers />
   </component>
